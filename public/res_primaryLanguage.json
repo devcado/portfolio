@@ -91,9 +91,10 @@
         "technologies": [
           "Java",
           "Spring",
-          "SQL",
           "JavaScript",
-          "React"
+          "React",
+          "SQL",
+          "AWS"
         ]
       },
       {
@@ -107,9 +108,10 @@
         "technologies": [
           "Java",
           "Spring",
-          "SQL",
           "JavaScript",
-          "React"
+          "React",
+          "SQL",
+          "AWS"
         ]
       },
       {
@@ -123,9 +125,10 @@
         "technologies": [
           "Java",
           "Spring",
-          "SQL",
           "JavaScript",
-          "React"
+          "React",
+          "SQL",
+          "AWS"
         ]
       }
     ]

@@ -1,12 +1,17 @@
 {
     "basic_info": {
-      "name": "Ricardo Felisbino",
-      "titles": [ "Full-Stack Developer", "Senior Engineer", "Dev Team lead", "Agile Master" ],
+      "name": "Ricardo Felisbino (Cado)",
+      "titles": [ "Fullstack Developer", "Senior Engineer", "Tech Lead Team", "Agile Master" ],
       "social": [
         {
           "name": "github",
           "url": "https://github.com/devcado",
           "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/devcado",
+          "class": "fab fa-linkedin"
         },
         {
           "name": "instagram",
