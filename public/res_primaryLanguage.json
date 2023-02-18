@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Olá",
-      "description": "👋 Sou Ricardo Felisbino. Pessoa fictícia para fins de visualização :) Estou trabalhando com os mais novos frameworks Full-Stack como Angular, React e Vue. O que você está vendo agora é o modelo de portfólio de Dorota1997. Se você gosta este modelo de portfólio, certifique-se de ⭐ o repositório para torná-lo mais reconhecível para outros usuários. Obrigado 💜",
+      "description_header": "Sou Ricardo Felisbino. ",
+      "description": "Desenvolvedor de software, sempre buscando me atualizar utilizando as melhores práticas do mercado. Proativo, criativo, sempre buscando formas eficientes e inovadoras de solucionar problemas.\nDomínio da metodologia ágil em gestão de projetos com Scrum, Kanban, Feature Driven Development (FDD) e eXtreme Programming (XP). Atualmente focando em Java 8 e 11+ em microsserviços usando Spring Framework, e também aplicações Javascript usando ReactJS.\nTenho 14 anos de experiência na área de tecnologia, sendo os últimos 9 anos focados em desenvolvimento de software. E venho me especializando em gestão de projetos, código limpo e práticas ágeis de desenvolvimento.",
       "section_name": {
         "about": "Sobre mim",
         "projects": "Projetos",
@@ -81,37 +81,51 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Full-Stack Developer",
-        "years": "10.2019 - present",
+        "icon": "fa-java",
+        "company": "Koin",
+        "title": "Dev Lead Team",
+        "years": "01.2023 - Atual",
         "mainTech": [
-          "Angular 8/9/10"
+          "Java"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "Java",
+          "Spring",
+          "SQL",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "React"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "icon": "fa-java",
+        "company": "Koin",
+        "title": "Developer Fullstack",
+        "years": "04.2022 - 12.2022",
         "mainTech": [
-          "Angular 7/8"
+          "Java"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "Java",
+          "Spring",
+          "SQL",
           "JavaScript",
-          "DHTMLX Gantt"
+          "React"
+        ]
+      },
+      {
+        "icon": "fa-java",
+        "company": "TDSoft",
+        "title": "Developer Fullstack",
+        "years": "08.2019 - 02.2022",
+        "mainTech": [
+          "Java"
+        ],
+        "technologies": [
+          "Java",
+          "Spring",
+          "SQL",
+          "JavaScript",
+          "React"
         ]
       }
     ]

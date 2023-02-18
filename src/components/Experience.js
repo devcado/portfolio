@@ -8,6 +8,12 @@ import Badge from "react-bootstrap/Badge";
 
 class Experience extends Component {
   render() {
+
+    function getIconWork(icon) {
+      let textIcon = "fab " + icon + " experience-icon";
+      return <i className={textIcon}></i>;
+    }
+
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
@@ -37,7 +43,7 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={getIconWork(work.icon)}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
