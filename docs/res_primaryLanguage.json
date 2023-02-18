@@ -1,0 +1,118 @@
+{
+    "basic_info": {
+      "description_header": "Olá",
+      "description": "👋 Sou Ricardo Felisbino. Pessoa fictícia para fins de visualização :) Estou trabalhando com os mais novos frameworks Full-Stack como Angular, React e Vue. O que você está vendo agora é o modelo de portfólio de Dorota1997. Se você gosta este modelo de portfólio, certifique-se de ⭐ o repositório para torná-lo mais reconhecível para outros usuários. Obrigado 💜",
+      "section_name": {
+        "about": "Sobre mim",
+        "projects": "Projetos",
+        "skills": "Habilidades",
+        "experience": "Experiência"
+      }
+    },
+    "projects": [
+      {
+        "title": "Animal Shelter",
+        "startDate": "2020",
+        "description": "A aplicação mais expandida com a qual tive a oportunidade de trabalhar. Aprendi muitas tecnologias e meu código foi revisado por um curador incrível. A aplicação cuida de todos os processos de adoção e permite armazenar todas as evidências sobre a adoção de animais em abrigos de animais." ,
+        "images": [
+          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/animal-shelter/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Fotografia",
+        "startDate": "2018",
+        "description": "Projeto pessoal para objeto de estudo. Fui responsável por testar um aplicativo de fotografia que otimiza imagens com algoritmos populares usados por editores gráficos como Pixlr ou Adobe Photoshop. Ganhei nota A :)",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "3D Object Viewer",
+        "startDate": "2015",
+        "description": "Um dos primeiros aplicativos que trabalhei no meu estágio. Tive que desenvolver implementação Full-Stack para aplicativo que mostra modelos 3D de edifícios conhecidos. Este também foi meu primeiro projeto no framework Angular. Aprendi um muito!",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "DefOpenSource",
+        "title": "Full-Stack Developer",
+        "years": "10.2019 - present",
+        "mainTech": [
+          "Angular 8/9/10"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          ".NET Core",
+          "SignalR",
+          "Angular Material"
+        ]
+      },
+      {
+        "company": "Serros Solutions",
+        "title": "Intern",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "RxJS",
+          "Django",
+          "PHP",
+          "JavaScript",
+          "DHTMLX Gantt"
+        ]
+      }
+    ]
+  }
