@@ -2,7 +2,7 @@ name: Build and deploy
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -33,4 +33,4 @@ jobs:
         with:     
           parent: false
           path: 'build'
-          destination: 'www.cado.dev.br'
+          destination: 'cado.gooddev.app'
