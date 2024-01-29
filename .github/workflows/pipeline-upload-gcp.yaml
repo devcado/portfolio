@@ -33,4 +33,4 @@ jobs:
         with:     
           parent: false
           path: 'build'
-          destination: 'cado.gooddev.app'
+          destination: 'ricardo.gooddev.app'
