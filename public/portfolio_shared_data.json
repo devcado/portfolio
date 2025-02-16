@@ -1,7 +1,12 @@
 {
     "basic_info": {
       "name": "Ricardo Felisbino (Cado)",
-      "titles": [ "Fullstack Developer", "Senior Engineer", "Tech Lead Team", "Agile Master" ],
+      "titles": [
+        "Software Developer / Software Engineer",
+        "Tech Lead / Software Engineer Lead",
+        "Software Architect / Solutions Architect",
+        "Agile Coach"
+      ],
       "social": [
         {
           "name": "github",
@@ -34,14 +39,29 @@
           "level": "90"
         },
         {
-          "name": "Php",
-          "class": "devicon-php-plain",
+          "name": "Jira",
+          "class": "devicon-jira-plain",
           "level": "90"
         },
         {
-          "name": "Wordpress",
-          "class": "devicon-wordpress-plain",
-          "level": "70"
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "80"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "50"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "50"
+        },
+        {
+          "name": "Php",
+          "class": "devicon-php-plain",
+          "level": "80"
         },
         {
           "name": "MySql",
@@ -54,39 +74,24 @@
           "level": "80"
         },
         {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
+          "name": "Wordpress",
+          "class": "devicon-wordpress-plain",
+          "level": "70"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
           "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "60"
-        },
-        {
-          "name": "React",
-          "class": "devicon-react-original",
-          "level": "40"
         },
         {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
-          "level": "100"
+          "level": "80"
         },
         {
           "name": "CSS 3",
           "class": "devicon-css3-plain",
           "level": "80"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "100"
-        },
-        {
-          "name": "Jira",
-          "class": "devicon-jira-plain",
-          "level": "90"
         },
         {
           "name": "Git",

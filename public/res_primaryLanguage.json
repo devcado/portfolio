@@ -1,52 +1,35 @@
 {
     "basic_info": {
       "description_header": "Sou Ricardo Felisbino. ",
-      "description": "Desenvolvedor de software, sempre buscando me atualizar utilizando as melhores práticas do mercado. Proativo, criativo, sempre buscando formas eficientes e inovadoras de solucionar problemas.\nDomínio da metodologia ágil em gestão de projetos com Scrum, Kanban, Feature Driven Development (FDD) e eXtreme Programming (XP). Atualmente focando em Java 8 e 11+ em microsserviços usando Spring Framework, e também aplicações Javascript usando ReactJS.\nTenho 14 anos de experiência na área de tecnologia, sendo os últimos 9 anos focados em desenvolvimento de software. E venho me especializando em gestão de projetos, código limpo e práticas ágeis de desenvolvimento.",
+      "description": "Desenvolvedor de software com 15 anos de experiência em tecnologia, sendo os últimos 10 focados no desenvolvimento de soluções robustas e escaláveis. Especialista em microsserviços Java com Spring Framework, com experiência em Clean Code, SOLID, TDD, FDD e XP. Atuo com metodologias ágeis como Scrum e Kanban, sempre comprometido com a entrega de código de qualidade e a constante atualização nas melhores práticas do mercado.",
       "section_name": {
         "about": "Sobre mim",
-        "projects": "Como ser um bom desenvolvedor?",
         "skills": "Habilidades",
         "experience": "Experiência"
       }
     },
-    "projects": [
-      {
-        "title": "Dica 1: Sempre é hora de aprender",
-        "description": "- Busque aprender constantemente conteúdos inovadores nas diferentes modalidades da área de programação: como uma ferramenta, uma linguagem, uma técnica, dentre outras.\n- Quem Busca por conhecimentos, consegue desenvolver em seu cérebro estímulos constantes, onde este se torna mais ativo, não ficando acomodado, melhorando suas habilidades da área da programação.\n- Leia bons livros nessa área.\n- Busque assistir séries enriquecedoras, baseadas no assunto da programação.\n- Converse com outros desenvolvedores, seja no seu trabalho, em cursos, palestras, dentre outros ambientes. Onde tal ação lhe auxiliará ver o mundo da programação por outras perspectivas.",
-        "image": "images/portfolio/dev/dica1.png"
-      },
-      {
-        "title": "Dica 2: Encontre seu foco",
-        "description": "- Os requisitos na área de programação, variam de acordo com a tipologia de software ou aplicação.\n- Pesquise sobre as áreas e a forma como cada uma desenvolve e desempenha seus projetos.\n- Procure o foco de sua atuação, com qual se identifica e que poderá desenvolver suas habilidades.\n- A atuação de um desenvolvedor de software pode abranger diversas áreas, dentre elas: Front- end, Back- end, Full- stack.",
-        "image": "images/portfolio/dev/dica2.png"
-      },
-      {
-        "title": "Dica 3: Pense",
-        "description": "- Analise e pense como realizará sua tarefa, e quais serão os resultados esperados com sua ação.\n- Sempre planeje. Elabore um check-list, verifique e realize testes. Para poder entregar a tarefa completa e sem bugs.",
-        "image": "images/portfolio/dev/dica3.png"
-      },
-      {
-        "title": "Dica 4: Simplifique seu código",
-        "description": "- Os melhores desenvolvedores escrevem códigos simples e direto, para que outros desenvolvedores consigam ler e compreender.\n- Utilize nomes para seus métodos de acordo com que ele se propõem a fazer.",
-        "image": "images/portfolio/dev/dica4.png"
-      },
-      {
-        "title": "Dica 5: Compatilhar conhecimento",
-        "description": "- Sempre que puder compartilhe com seu colega de trabalho o conhecimento que possui, além de ajudar, você poderá ser uma referência para seu time de programação.\n- Ser egoísta não é uma prática legal, pois você estará auto se sabotando. Ao interagir com o outro você não só transmite o conhecimento como também poderá aprender com quem compartilhou. Desta forma será enriquecedor para ambos e para equipe.",
-        "image": "images/portfolio/dev/dica5.png"
-      },
-      {
-        "title": "Dica 6: Solicite Ajuda",
-        "description": "- Caso não consiga resolver determinado problema e já verificou as mais variadas formas, não fique com vergonha ou medo de dizer ao seu colega de trabalho que não está conseguindo, solicite ajuda, pois o outro pode conseguir identificar e lhe ensinar/ajudar algo que você ainda não domine na área.\n- Mas atenção! Procure não chamar seu colega várias vezes, só realmente quando não possuir outra alternativa, pois poderá tirar a concentração do outro, bem como atrapalhar na produtividade do mesmo.",
-        "image": "images/portfolio/dev/dica6.png"
-      }
-    ],
     "experience": [
       {
         "icon": "fa-java",
-        "company": "Leroy Merlin Brasil",
+        "company": "CWI Software / (Porto Bank)",
         "title": "Desenvolvedor de Software Sênior",
-        "years": "04.2023 - atualmente",
+        "years": "09.2024 - atualmente",
+        "mainTech": [
+          "Java"
+        ],
+        "technologies": [
+          "Java",
+          "Spring",
+          "JavaScript",
+          "SQL",
+          "AWS"
+        ]
+      },
+      {
+        "icon": "fa-java",
+        "company": "PJ / Escalate / (Leroy Merlin Brasil)",
+        "title": "Desenvolvedor de Software Sênior",
+        "years": "04.2023 - 09.2024",
         "mainTech": [
           "Java"
         ],
@@ -96,7 +79,7 @@
       },
       {
         "icon": "fa-java",
-        "company": "TDSoft",
+        "company": "TDSoft / (Globo)",
         "title": "Desenvolvedor de software",
         "years": "08.2019 - 02.2022",
         "mainTech": [
@@ -113,8 +96,8 @@
       },
       {
         "icon": "fa-php",
-        "company": "RFSistema.net",
-        "title": "Proprietário e Desenvolvedor de Software",
+        "company": "PJ / RFSistemas / (Órgãos públicos)",
+        "title": "Desenvolvedor de Software",
         "years": "06.2014 - 06.2019",
         "mainTech": [
           "PHP"
@@ -133,7 +116,7 @@
       {
         "icon": "fa-php",
         "company": "freelance",
-        "title": "Professor e desenvolvedor de software",
+        "title": "Desenvolvedor de Software",
         "years": "11.2009 - 06.2014",
         "mainTech": [
           "PHP"

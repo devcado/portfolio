@@ -1,7 +1,124 @@
+@import '../../variables';
+@import '../src/scss/light-slider.scss';
+
 body[data-theme="light"] {
-    @import '../src/scss/light-slider.scss';
- 
     .slider-tab {
-       background-color: #D7CAAA;
+       background-color: $light-slider-tab-bg;
+    }
+
+    .organic-arrow {
+       color: $light-organic-arrow-color;
+    }
+
+    .loader-bar {
+       color: $light-loader-bar-color;
+    }
+
+    .control-bullet {
+       color: $light-control-bullet-color;
+    }
+
+    .control-bullet-active {
+       color: $light-control-bullet-active-color;
+    }
+
+    .content {
+       background-color: $light-content-bg;
+    }
+
+    header {
+       background-color: $light-header-bg;
+       h1 {
+          color: $light-header-title-color;
+       }
+    }
+
+    .link-href {
+       color: $light-link-href-color;
+    }
+
+    .project-date {
+       background-color: $light-project-date-bg;
+       color: $light-project-date-color;
+    }
+
+    .language {
+       background-color: $light-language-bg;
+       color: $light-language-color;
+    }
+
+    .language-icon {
+       color: $light-language-icon-color;
+    }
+
+    #about {
+       background-color: $light-about-bg;
+       h1 span {
+          color: $light-about-title-color;
+       }
+       .polaroid span {
+          background: $light-about-card-img-bg;
+       }
+       .card {
+          background: $light-about-card-bg;
+          color: $light-about-card-color;
+       }
+    }
+
+    #skills {
+       background-color: $light-portfolio-bg-inv;
+       .section-title .text-white {
+          color: $light-portfolio-title-color-inv !important;
+       }
+       .skill {
+          background: $light-portfolio-bg-inv !important;
+          color: $light-portfolio-title-color-inv !important;
+       }
+    }
+
+    #portfolio {
+       background: $light-portfolio-bg;
+       .section-title {
+          color: $light-portfolio-title-color !important;
+       }
+       .foto div {
+          background: $light-portfolio-foto-bg;
+       }
+       .project-title-settings {
+          color: $light-portfolio-project-title-color;
+       }
+    }
+
+    #resume {
+       background: $light-resume-bg;
+       .section-title {
+          color: $light-resume-title-color !important;
+       }
+
+       .experience-badge {
+          background: $light-experience-badge-bg !important;
+          color: $light-experience-badge-color;
+       }
+
+       .main-badge {
+          background: $light-main-badge-bg !important;
+       }
+
+       .vertical-timeline-element-date {
+          color: $light-vertical-timeline-date-color;
+       }
+
+       .vertical-timeline-element-icon {
+          background: $light-vertical-timeline-icon-bg !important;
+       }
+    }
+
+    .modal-inside .modal-content {
+       background: $light-modal-content-bg;
+       color: $light-modal-content-color;
+    }
+
+    .close-icon {
+       color: $light-close-icon-color;
     }
 }

@@ -1,9 +1,11 @@
+@import '../_variables.scss';
+
 $root-element: 'awssld';
 $cos45: 0.7071;
 $transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
 $slider-height-percentage: 60%;
 $slider-transition-duration: 575ms;
-$organic-arrow-color: #D7CAAA;
+$organic-arrow-color: $light-organic-arrow-color;
 $organic-arrow-thickness: 4px;
 $organic-arrow-height: 40px;
 $organic-arrow-border-radius: 0;
@@ -12,11 +14,11 @@ $control-button-height: 25%;
 $control-button-opacity: 0.5;
 $control-button-hover-opacity: 0.75;
 $control-button-background: transparent;
-$loader-bar-color:#BFAA76;
+$loader-bar-color: $light-loader-bar-color;
 $loader-bar-height: 6px;
-$control-bullet-color: #D7CAAA;
-$control-bullet-active-color: #D7CAAA;
-$content-background-color: #D7CAAA;
+$control-bullet-color: $light-control-bullet-color;
+$control-bullet-active-color: $light-control-bullet-active-color;
+$content-background-color: $light-content-bg;
 
 %fill-parent {
   display: block;
@@ -28,12 +30,11 @@ $content-background-color: #D7CAAA;
 }
 
 %clear-spacing {
-  padding: 0;
   margin: 0;
 }
 
 %clear-focus {
-  outline-color: 0;
+  outline-color: rgba(0, 0, 0, 0);
   outline-style: none;
   outline-width: 0;
 }
@@ -48,7 +49,6 @@ $content-background-color: #D7CAAA;
   --organic-arrow-thickness: #{$organic-arrow-thickness};
   --organic-arrow-height: #{$organic-arrow-height};
   --slider-height-percentage: #{$slider-height-percentage};
-  --loader-bar-color: #{$loader-bar-color};
   --loader-bar-height: #{$loader-bar-height};
   --control-button-width: #{$control-button-width};
   --control-button-height: #{$control-button-height};
@@ -118,8 +118,7 @@ $content-background-color: #D7CAAA;
     justify-content: center;
     > img,
     > video {
-      width: 100%;
-      position: absolute;
+      height: 100%;
       top: 0;
       left: 0;
     }
@@ -131,9 +130,7 @@ $content-background-color: #D7CAAA;
       align-items: center;
       justify-content: center;
       width: var(--control-button-width);
-      height: var(--control-button-height);
       position: absolute;
-      z-index: 10;
       top: calc(50% - (0.5 * var(--control-button-height)));
       border: none;
       background-color: var(--control-button-background);
@@ -146,17 +143,17 @@ $content-background-color: #D7CAAA;
       &:hover {
         .#{$root-element}__controls__arrow-left,
         .#{$root-element}__controls__arrow-right {
-          opacity: var(--control-button-opacity-hover);
+          opacity: var(--control-button-hover-opacity);
         }
       }
     }
     &--active {
       .#{$root-element}__controls__arrow-left {
-        opacity: var(--control-button-opacity-hover);
+        opacity: var(--control-button-hover-opacity);
         transform: translate3d(-100%, 0, 0);
       }
       .#{$root-element}__controls__arrow-right {
-        opacity: var(--control-button-opacity-hover);
+        opacity: var(--control-button-hover-opacity);
         transform: translate3d(100%, 0, 0);
       }
     }
@@ -215,7 +212,6 @@ $content-background-color: #D7CAAA;
     backface-visibility: hidden;
   }
   &--moveRight {
-    // transform: translate3d(100%, 0, 0);
     animation: slideFromRight var(--slider-transition-duration) both
       var(--transition-bezier);
   }
@@ -322,13 +318,11 @@ $content-background-color: #D7CAAA;
     }
     &:before {
       transform-origin: 100% 100% 0;
-      // background-color: rgba(76, 177, 6, 0.75);
       top: -50%;
       transform: rotate(-45deg);
     }
     &:after {
       transform-origin: 100% 0% 0;
-      // background-color: rgba(255, 247, 43, 0.75);
       top: 50%;
       transform: rotate(45deg);
     }

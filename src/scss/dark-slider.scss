@@ -1,9 +1,11 @@
+@import '../_variables.scss';
+
 $root-element: 'awssld';
 $cos45: 0.7071;
 $transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
 $slider-height-percentage: 60%;
 $slider-transition-duration: 575ms;
-$organic-arrow-color: #8C8C8C;
+$organic-arrow-color: $color-gray-medium;
 $organic-arrow-thickness: 4px;
 $organic-arrow-height: 40px;
 $organic-arrow-border-radius: 0;
@@ -12,11 +14,11 @@ $control-button-height: 25%;
 $control-button-opacity: 0.5;
 $control-button-hover-opacity: 0.75;
 $control-button-background: transparent;
-$loader-bar-color: #656565;
+$loader-bar-color: $color-gray-medium-dark;
 $loader-bar-height: 6px;
-$control-bullet-color: #8C8C8C;
-$control-bullet-active-color: #8C8C8C;
-$content-background-color: #8C8C8C;
+$control-bullet-color: $color-gray-medium;
+$control-bullet-active-color: $color-gray-medium;
+$content-background-color: $color-gray-medium;
 
 %fill-parent {
   display: block;
@@ -33,7 +35,7 @@ $content-background-color: #8C8C8C;
 }
 
 %clear-focus {
-  outline-color: 0;
+  outline-color: rgba(0, 0, 0, 0);
   outline-style: none;
   outline-width: 0;
 }
@@ -50,7 +52,6 @@ $content-background-color: #8C8C8C;
   --slider-height-percentage: #{$slider-height-percentage};
   --loader-bar-color: #{$loader-bar-color};
   --loader-bar-height: #{$loader-bar-height};
-  --control-button-width: #{$control-button-width};
   --control-button-height: #{$control-button-height};
   --control-button-opacity: #{$control-button-opacity};
   --control-button-hover-opacity: #{$control-button-hover-opacity};
@@ -132,7 +133,6 @@ $content-background-color: #8C8C8C;
       width: var(--control-button-width);
       height: var(--control-button-height);
       position: absolute;
-      z-index: 10;
       top: calc(50% - (0.5 * var(--control-button-height)));
       border: none;
       background-color: var(--control-button-background);
@@ -214,7 +214,6 @@ $content-background-color: #8C8C8C;
     backface-visibility: hidden;
   }
   &--moveRight {
-    // transform: translate3d(100%, 0, 0);
     animation: slideFromRight var(--slider-transition-duration) both
       var(--transition-bezier);
   }
@@ -321,13 +320,11 @@ $content-background-color: #8C8C8C;
     }
     &:before {
       transform-origin: 100% 100% 0;
-      // background-color: rgba(76, 177, 6, 0.75);
       top: -50%;
       transform: rotate(-45deg);
     }
     &:after {
       transform-origin: 100% 0% 0;
-      // background-color: rgba(255, 247, 43, 0.75);
       top: 50%;
       transform: rotate(45deg);
     }
