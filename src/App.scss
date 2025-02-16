@@ -7,6 +7,7 @@ html {
   -webkit-font-smoothing: antialiased;
   margin: 0;
   padding: 0;
+  background-color: $color-white;
 }
 
 .aligner {
@@ -173,6 +174,16 @@ header h1 {
   position: relative;
 }
 
+.polaroid svg {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.polaroid svg:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
 .link-href {
   color: $color-black;
 }
@@ -237,6 +248,16 @@ header h1 {
   font-size: 14px !important;
   font-family: 'Roboto', sans-serif;
   font-weight: bolder !important;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vertical-timeline-element-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (max-width: 1170px) {
@@ -373,6 +394,13 @@ header h1 {
   width: 100px;
   margin: 5px 0 5px 0;
   border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .skill-icon {
@@ -409,8 +437,7 @@ footer a:focus {
 }
 
 section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 25px;
   @media (min-width: 1200px) {
     width: 1200px;
     margin: 0 auto;

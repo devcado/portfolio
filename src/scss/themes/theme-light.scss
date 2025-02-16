@@ -2,123 +2,148 @@
 @import '../src/scss/light-slider.scss';
 
 body[data-theme="light"] {
-    .slider-tab {
-       background-color: $light-slider-tab-bg;
+  .slider-tab {
+    background-color: $light-slider-tab-bg;
+  }
+
+  .organic-arrow {
+    color: $light-organic-arrow-color;
+  }
+
+  .loader-bar {
+    color: $light-loader-bar-color;
+  }
+
+  .control-bullet {
+    color: $light-control-bullet-color;
+  }
+
+  .control-bullet-active {
+    color: $light-control-bullet-active-color;
+  }
+
+  .content {
+    background-color: $color-blue-medium-light;
+  }
+
+  header {
+    background-color: $color-blue-medium-light;
+
+    h1 {
+      color: $light-header-title-color;
+    }
+  }
+
+  .link-href {
+    color: $light-link-href-color;
+  }
+
+  .project-date {
+    background-color: $light-project-date-bg;
+    color: $light-project-date-color;
+  }
+
+  .language {
+    background-color: $color-blue-medium-light;
+    color: $light-language-color;
+  }
+
+  .language-icon {
+    color: $light-language-icon-color;
+  }
+
+  .page-body {
+    background-color: $color-blue-medium-light;
+  }
+
+  #about {
+    background-color: $light-portfolio-bg-inv;
+
+    .section-title .text-white {
+      color: $light-portfolio-title-color-inv !important;
     }
 
-    .organic-arrow {
-       color: $light-organic-arrow-color;
+    .polaroid span {
+      background: $light-about-card-img-bg;
     }
 
-    .loader-bar {
-       color: $light-loader-bar-color;
+    .card {
+      background: $light-about-card-bg;
+      color: $light-about-card-color;
+    }
+  }
+
+  #skills {
+    background-color: $light-portfolio-bg-inv;
+
+    .section-title .text-white {
+      color: $light-portfolio-title-color-inv !important;
     }
 
-    .control-bullet {
-       color: $light-control-bullet-color;
+    .skill {
+      background: $light-portfolio-bg-inv !important;
+      color: $light-portfolio-title-color-inv !important;
     }
 
-    .control-bullet-active {
-       color: $light-control-bullet-active-color;
+    .skills-tile {
+      background-color: $color-gray-dark-light !important;
+      color: $color-white !important;
+    }
+  }
+
+  #portfolio {
+    background: $light-portfolio-bg;
+
+    .section-title {
+      color: $light-portfolio-title-color !important;
     }
 
-    .content {
-       background-color: $light-content-bg;
+    .foto div {
+      background: $light-portfolio-foto-bg;
     }
 
-    header {
-       background-color: $light-header-bg;
-       h1 {
-          color: $light-header-title-color;
-       }
+    .project-title-settings {
+      color: $light-portfolio-project-title-color;
+    }
+  }
+
+  #resume {
+    background: $light-resume-bg;
+
+    .section-title {
+      color: $light-resume-title-color !important;
     }
 
-    .link-href {
-       color: $light-link-href-color;
+    .experience-badge {
+      background: $light-experience-badge-bg !important;
+      color: $light-experience-badge-color;
     }
 
-    .project-date {
-       background-color: $light-project-date-bg;
-       color: $light-project-date-color;
+    .main-badge {
+      background: $light-main-badge-bg !important;
     }
 
-    .language {
-       background-color: $light-language-bg;
-       color: $light-language-color;
+    .vertical-timeline-element-date {
+      color: $light-vertical-timeline-date-color;
     }
 
-    .language-icon {
-       color: $light-language-icon-color;
+    .vertical-timeline-element-icon {
+      background: $light-vertical-timeline-icon-bg !important;
     }
+  }
 
-    #about {
-       background-color: $light-about-bg;
-       h1 span {
-          color: $light-about-title-color;
-       }
-       .polaroid span {
-          background: $light-about-card-img-bg;
-       }
-       .card {
-          background: $light-about-card-bg;
-          color: $light-about-card-color;
-       }
-    }
+  .modal-inside .modal-content {
+    background: $light-modal-content-bg;
+    color: $light-modal-content-color;
+  }
 
-    #skills {
-       background-color: $light-portfolio-bg-inv;
-       .section-title .text-white {
-          color: $light-portfolio-title-color-inv !important;
-       }
-       .skill {
-          background: $light-portfolio-bg-inv !important;
-          color: $light-portfolio-title-color-inv !important;
-       }
-    }
+  .close-icon {
+    color: $light-close-icon-color;
+  }
 
-    #portfolio {
-       background: $light-portfolio-bg;
-       .section-title {
-          color: $light-portfolio-title-color !important;
-       }
-       .foto div {
-          background: $light-portfolio-foto-bg;
-       }
-       .project-title-settings {
-          color: $light-portfolio-project-title-color;
-       }
-    }
+  footer {
+    background: $color-blue-medium;
+    color: $color-white;
+  }
 
-    #resume {
-       background: $light-resume-bg;
-       .section-title {
-          color: $light-resume-title-color !important;
-       }
-
-       .experience-badge {
-          background: $light-experience-badge-bg !important;
-          color: $light-experience-badge-color;
-       }
-
-       .main-badge {
-          background: $light-main-badge-bg !important;
-       }
-
-       .vertical-timeline-element-date {
-          color: $light-vertical-timeline-date-color;
-       }
-
-       .vertical-timeline-element-icon {
-          background: $light-vertical-timeline-icon-bg !important;
-       }
-    }
-
-    .modal-inside .modal-content {
-       background: $light-modal-content-bg;
-       color: $light-modal-content-color;
-    }
-
-    .close-icon {
-       color: $light-close-icon-color;
-    }
 }

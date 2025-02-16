@@ -1,113 +1,143 @@
 body[data-theme="dark"] {
-      @import '../src/scss/dark-slider.scss';
+  @import '../src/scss/dark-slider.scss';
 
-      .slider-tab {
-         background-color: $color-gray-medium;
+  .slider-tab {
+    background-color: $color-gray-medium;
+  }
+
+  .title-styles {
+    color: $color-white;
+  }
+
+  .header-icon {
+    color: $color-gray-dark-dark;
+    opacity: 0.8;
+  }
+
+  .slider-image {
+    border: 5px solid $color-gray-medium;
+  }
+
+  .language {
+    background-color: $color-gray-dark;
+  }
+
+  .link-href {
+    color: $color-white;
+  }
+
+  .project-date {
+    background-color: $color-gray-medium-light;
+    color: $color-white;
+  }
+
+  header {
+    background-color: $color-gray-dark;
+
+    h1 {
+      color: $color-white;
+    }
+  }
+
+  .page-body {
+    background-color: $color-gray-dark;
+  }
+
+  #about {
+    background-color: $dark-about-bg;
+
+    .section-title .text-white {
+      color: $dark-portfolio-title-color !important;
+    }
+
+    .polaroid span {
+      background: $dark-about-card-img-bg
+    }
+
+    .card {
+      background: $dark-about-card-bg;
+      color: $dark-about-card-color;
+    }
+  }
+
+  #portfolio {
+    background: $color-gray-dark-light;
+
+    .section-title {
+      color: $dark-portfolio-title-color !important;
+    }
+
+    .foto div {
+      background: $color-gray-dark-medium;
+    }
+
+    .project-title-settings {
+      color: $dark-portfolio-project-title-color !important;
+    }
+  }
+
+  #skills {
+    background: $dark-portfolio-bg;
+
+    .section-title .text-white {
+      color: $dark-portfolio-title-color !important;
+    }
+
+    .skill {
+      background: $dark-portfolio-bg-inv !important;
+      color: $dark-portfolio-title-color !important;
+    }
+
+    .skills-tile {
+      background-color: $dark-portfolio-title-color !important;
+    }
+  }
+
+  #resume {
+    filter: brightness(80%);
+    background: $color-gray-dark-light;
+
+    .section-title {
+      color: $dark-portfolio-title-color !important;
+    }
+
+    .experience-badge {
+      background: $color-gray-medium-light !important;
+      color: $color-white;
+    }
+
+    .main-badge {
+      background: $color-gray-medium-light !important;
+    }
+
+    .vertical-timeline-element-date {
+      color: $dark-vertical-timeline-date-color
+    }
+
+    .vertical-timeline-element-icon {
+      background: $dark-vertical-timeline-icon-bg !important;
+    }
+
+    @media only screen and (max-width: 1169px) {
+      .vertical-timeline-element-date {
+        color: $dark-vertical-timeline-date-color;
       }
+    }
+  }
 
-      .title-styles {
-         color: $color-white;
-      }
+  .modal-inside .modal-content {
+    background: $color-gray-dark-light;
+    color: $color-white;
+  }
 
-      .header-icon {
-         color: $color-gray-dark-dark;
-         opacity: 0.8;
-      }
+  .close-icon {
+    color: $color-white;
+  }
 
-      .slider-image {
-         border: 5px solid $color-gray-medium;
-      }
 
-      .language {
-         background-color: $color-gray-dark;
-      }
+  footer {
+    background: $color-black;
+    color: $color-white;
+  }
 
-      .link-href {
-         color: $color-white;
-      }
-
-      .project-date {
-         background-color: $color-gray-medium-light;
-         color: $color-white;
-      }
-
-      header {
-         background-color: $color-gray-dark;
-         h1 {
-            color: $color-white;
-         }
-      }
-
-      #about {
-         background-color: $dark-about-bg;
-         h1 span {
-            color: $dark-about-title-color;
-         }
-         .polaroid span {
-            background: $dark-about-card-img-bg
-         }
-         .card {
-            background: $dark-about-card-bg;
-            color: $dark-about-card-color;
-         }
-      }
-
-      #portfolio {
-         background: $color-gray-dark-light;
-         .section-title {
-            color: $dark-portfolio-title-color !important;
-         }
-         .foto div {
-            background: $color-gray-dark-medium;
-         }
-         .project-title-settings {
-            color: $dark-portfolio-project-title-color !important;
-         }
-      }
-
-      #skills {
-         background: $dark-portfolio-bg-inv;
-         .section-title .text-white {
-            color: $dark-portfolio-title-color-inv !important;
-         }
-      }
-
-      #resume {
-         filter: brightness(80%);
-         background: $color-gray-dark-light;
-         .section-title {
-            color: $dark-portfolio-title-color !important;
-         }
-
-         .experience-badge {
-            background: $color-gray-medium-light !important;
-            color: $color-white;
-         }
-
-         .main-badge {
-            background: $color-gray-medium-light !important;
-         }
-
-         .vertical-timeline-element-date {
-            color: $dark-vertical-timeline-date-color
-         }
-
-         .vertical-timeline-element-icon {
-            background: $dark-vertical-timeline-icon-bg !important;
-         }
-         @media only screen and (max-width: 1169px) {
-            .vertical-timeline-element-date {
-               color: $dark-vertical-timeline-date-color;
-            }
-         }
-      }
-
-      .modal-inside .modal-content {
-         background: $color-gray-dark-light;
-         color: $color-white;
-      }
-
-      .close-icon {
-         color: $color-white;
-      }
-   }
+}

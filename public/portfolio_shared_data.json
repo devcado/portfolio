@@ -44,6 +44,21 @@
           "level": "90"
         },
         {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain",
+          "level": "50"
+        },
+        {
+          "name": "GCP",
+          "class": "devicon-googlecloud-plain",
+          "level": "50"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "50"
+        },
+        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
           "level": "80"
@@ -64,13 +79,18 @@
           "level": "80"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
           "level": "80"
         },
         {
           "name": "PostgreSql",
           "class": "devicon-postgresql-plain",
+          "level": "80"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
           "level": "80"
         },
         {
@@ -84,12 +104,12 @@
           "level": "80"
         },
         {
-          "name": "HTML 5",
+          "name": "HTML",
           "class": "devicon-html5-plain",
           "level": "80"
         },
         {
-          "name": "CSS 3",
+          "name": "CSS",
           "class": "devicon-css3-plain",
           "level": "80"
         },
