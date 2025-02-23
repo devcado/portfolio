@@ -1,12 +1,12 @@
+RewriteEngine On
 
+# Exceção para o path raiz e arquivos estáticos
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$
 
-RewriteEngine On 
-RewriteCond %{HTTPS} off 
+# Redireciona todas as outras rotas para a raiz
+RewriteRule ^(.*)$ / [L,R=301]
+
+# Regras HTTPS
+RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
-
-# php -- BEGIN cPanel-generated handler, do not edit
-# Defina o pacote “ea-php82” como a linguagem padrão de programação “PHP”.
-<IfModule mime_module>
-  AddHandler application/x-httpd-ea-php82___lsphp .php .php8 .phtml
-</IfModule>
-# php -- END cPanel-generated handler, do not edit
